@@ -1,9 +1,13 @@
 {
   "name": "ember-engine-router-service",
   "version": "0.0.0",
-  "description": "The default blueprint for ember-cli addons.",
+  "description": "Adds support for the `RouterService` inside routable engines",
   "keywords": [
-    "ember-addon"
+    "ember-addon",
+    "ember-engines",
+    "router",
+    "routing",
+    "service"
   ],
   "repository": "",
   "license": "MIT",
