@@ -36,13 +36,13 @@ jobs:
       - name: Install Dependencies
         run: yarn install --frozen-lockfile
       - name: Lint JS
-        run: yarn lint:js
+        run: yarn workspace ember-engine-router-service lint:js
       - name: Lint Types
-        run: yarn lint:types
+        run: yarn workspace ember-engine-router-service lint:types
       - name: Lint Handlebars
-        run: yarn lint:hbs
+        run: yarn workspace ember-engine-router-service lint:hbs
       - name: Browser Tests
-        run: yarn test
+        run: yarn workspace ember-engine-router-service test
 
   test-old-dependencies:
     name: Oldest Supported Env
@@ -57,7 +57,7 @@ jobs:
       - name: Install Dependencies
         run: yarn install --frozen-lockfile
       - name: Browser Tests
-        run: yarn test
+        run: yarn workspace ember-engine-router-service test
 
   test-try:
     name: Ember Try
@@ -80,4 +80,4 @@ jobs:
       - name: Install Dependencies
         run: yarn install --frozen-lockfile
       - name: Try Scenario
-        run: yarn ember try:one ${{ matrix.scenario }}
+        run: yarn workspace ember-engine-router-service ember try:one ${{ matrix.scenario }}
