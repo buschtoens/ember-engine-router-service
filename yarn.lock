@@ -886,12 +886,12 @@
   dependencies:
     eslint-plugin-import-helpers "^1.0.2"
 
-"@clark/eslint-config-node@^1.21.0":
-  version "1.21.0"
-  resolved "https://registry.yarnpkg.com/@clark/eslint-config-node/-/eslint-config-node-1.21.0.tgz#699f14f5b17ab2f60a0a642c30a26c835e41d64f"
-  integrity sha512-Za010HR0iR4A3BebHJpSnsoUVC4SW5Jua/ldO361FFYa6N9f6cgdEMKRiXQwPLvojKxYlXoC9SdHkkYr3a2jow==
+"@clark/eslint-config-node@^1.23.0":
+  version "1.23.0"
+  resolved "https://registry.yarnpkg.com/@clark/eslint-config-node/-/eslint-config-node-1.23.0.tgz#8bf650d60f241b9911e32ba6da835168f5b045e9"
+  integrity sha512-GsHuG4Vbz6rJ6qd52ezr5XeLBFrrn5y3+9QsoNC5FiknKdwDZAh+E6AVLpm/e/x/K3xv8ggKHHYinqZF0OecTA==
   dependencies:
-    "@clark/eslint-config" "^1.21.0"
+    "@clark/eslint-config" "^1.23.0"
     "@clark/eslint-config-node-order-imports" "^1.19.0"
     eslint-plugin-node "^11.0.0"
     lodash.merge "^4.6.2"
@@ -904,20 +904,6 @@
     "@clark/eslint-config" "^1.23.0"
     "@typescript-eslint/eslint-plugin" "^2.21.0"
     "@typescript-eslint/parser" "^2.21.0"
-
-"@clark/eslint-config@^1.21.0":
-  version "1.21.0"
-  resolved "https://registry.yarnpkg.com/@clark/eslint-config/-/eslint-config-1.21.0.tgz#bd3ff72c826a46d6744ec645a798110bac02834e"
-  integrity sha512-xmcidiyhcvonMRxFXRBsSEB+Ibtd8USdtGpqi7k9BUAs7SKzg+w6a3zXfgLO27yYZgGQtSy4S+bo1Wh900241A==
-  dependencies:
-    eslint-config-airbnb-base "^14.0.0"
-    eslint-config-prettier "^6.10.0"
-    eslint-config-xo-space "^0.22.0"
-    eslint-plugin-import "^2.20.1"
-    eslint-plugin-node "^11.0.0"
-    eslint-plugin-prettier "^3.1.2"
-    eslint-plugin-unicorn "^16.1.1"
-    prettier "^1.19.1"
 
 "@clark/eslint-config@^1.23.0":
   version "1.23.0"
@@ -5255,24 +5241,12 @@ eslint-config-prettier@^6.10.0:
   dependencies:
     get-stdin "^6.0.0"
 
-eslint-config-xo-space@^0.22.0:
-  version "0.22.0"
-  resolved "https://registry.yarnpkg.com/eslint-config-xo-space/-/eslint-config-xo-space-0.22.0.tgz#dbe57efa7ce93c38e924b9f0f1f1c04bc84426f0"
-  integrity sha512-c+qGdMg+2gw7DBcmZJnpIXLuKRLEMr/9/MFXPh2dY6gSb3Cx7O7sNUHTRLaB/DOMr5h29vwi+yhm6e5Ux1/TPA==
-  dependencies:
-    eslint-config-xo "^0.27.2"
-
 eslint-config-xo-space@^0.24.0:
   version "0.24.0"
   resolved "https://registry.yarnpkg.com/eslint-config-xo-space/-/eslint-config-xo-space-0.24.0.tgz#48bcbf2fda7986edb1d3cd9163de3b07d2c2d584"
   integrity sha512-y6vqCeKvbPsDBKJhwffamHHFJiegwJEioqdGigkIr5eNiCRd28A5wMapWLeCzvpMK03BWknTEEaoIlfQsqnmDg==
   dependencies:
     eslint-config-xo "^0.29.0"
-
-eslint-config-xo@^0.27.2:
-  version "0.27.2"
-  resolved "https://registry.yarnpkg.com/eslint-config-xo/-/eslint-config-xo-0.27.2.tgz#71aff3d5b5554e9e5b5e1853e21da7799bb53f1f"
-  integrity sha512-qEuZP0zNQkWpOdNZvWnfY2GNp1AZ33uXgeOXl4DN5YVLHFvekHbeSM2FFZ8A489fp1rCCColVRlJsYMf28o4DA==
 
 eslint-config-xo@^0.29.0:
   version "0.29.1"
