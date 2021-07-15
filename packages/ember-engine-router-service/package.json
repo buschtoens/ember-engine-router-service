@@ -43,7 +43,7 @@
     "@types/ember-qunit": "^3.4.14",
     "@types/ember__test-helpers": "^2.0.1",
     "@types/qunit": "^2.11.2",
-    "@types/rsvp": "^4.0.3",
+    "@types/rsvp": "^4.0.4",
     "broccoli-asset-rev": "^3.0.0",
     "ember-auto-import": "^1.11.3",
     "ember-cli": "~3.27.0",
